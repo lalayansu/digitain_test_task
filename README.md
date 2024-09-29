@@ -7,7 +7,7 @@
 * __Language__: Kotlin
 * __Compatible__: API 26 or higher
 * __UI
-  Paradigm__: MVI
+  Paradigm__: MVI for JackpotScreen and MVVM + UI State for MainActivity
 * __Global architecture__:
     * Clean Architecture
     * Single Activity Architecture
