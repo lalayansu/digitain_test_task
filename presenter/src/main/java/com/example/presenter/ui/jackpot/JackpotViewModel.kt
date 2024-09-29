@@ -108,6 +108,7 @@ class JackpotViewModel @Inject constructor(
                 sendEffect(effect = ShowError)
                 setState(oldState.copy(errorMessage = event.errorMessage))
             }
+
             OnJackpotClick -> sendEffect(effect = NavigateToJackpotDetails)
         }
     }
