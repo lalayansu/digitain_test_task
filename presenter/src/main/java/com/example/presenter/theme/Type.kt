@@ -7,8 +7,8 @@ import androidx.compose.ui.unit.sp
 
 val Typography = Typography(
     headlineSmall = TextStyle(
-        fontWeight = FontWeight.W400,
-        fontSize = 16.sp
+        fontWeight = FontWeight.W700,
+        fontSize = 22.sp
     ),
     bodySmall = TextStyle(
         fontWeight = FontWeight.W400,

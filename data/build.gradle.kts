@@ -17,14 +17,6 @@ dependencies {
     implementation(Libs.Retrofit.RETROFIT)
     //endregion
 
-    //region Scarlet
-    implementation(Libs.Scarlet.SCARLET)
-    implementation(Libs.Scarlet.SCARLET_LIFECYCLE)
-    implementation(Libs.Scarlet.WEB_SOCKET_OKHTTP)
-    implementation(Libs.Scarlet.MESSAGE_ADAPTER_GSON)
-    implementation(Libs.Scarlet.STREAM_ADAPTER_COROUTINES)
-    //endregion
-
     //region AndroidX lifecycle
     implementation(Libs.Android.LIFECYCLE_PROCESS)
     //endregion

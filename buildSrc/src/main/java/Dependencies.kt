@@ -20,7 +20,6 @@ import Versions.okHttpVersion
 import Versions.retrofitCoroutinesVersion
 import Versions.retrofitVersion
 import Versions.runtimeVersion
-import Versions.scarletVersion
 
 object Versions {
 
@@ -55,8 +54,6 @@ object Versions {
     const val coroutinesVersion = "1.6.4"
     const val lifecycleVersion = "2.6.1"
     const val materialVersion = "1.8.0-beta01"
-
-    const val scarletVersion = "0.1.10"
 }
 
 object DependencyType {
@@ -124,14 +121,5 @@ object Libs {
         const val GSON_CONVERTER = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
         const val HTTP_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
         const val OK_HTTP = "com.squareup.okhttp3:okhttp:$okHttpVersion"
-    }
-
-    object Scarlet {
-        const val SCARLET = "com.tinder.scarlet:scarlet:$scarletVersion"
-        const val WEB_SOCKET_OKHTTP = "com.tinder.scarlet:websocket-okhttp:$scarletVersion"
-        const val MESSAGE_ADAPTER_GSON = "com.tinder.scarlet:message-adapter-gson:$scarletVersion"
-        const val STREAM_ADAPTER_COROUTINES =
-            "com.tinder.scarlet:stream-adapter-coroutines:$scarletVersion"
-        const val SCARLET_LIFECYCLE = "com.tinder.scarlet:lifecycle-android:$scarletVersion"
     }
 }
